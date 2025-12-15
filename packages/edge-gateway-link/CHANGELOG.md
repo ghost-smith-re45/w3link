@@ -1,5 +1,46 @@
 # Changelog
 
+## [1.7.0](https://github.com/ghost-smith-re45/w3link/compare/w3link-edge-gateway-v1.6.1...w3link-edge-gateway-v1.7.0) (2025-12-15)
+
+
+### Features
+
+* add csp report endpoint ([#39](https://github.com/ghost-smith-re45/w3link/issues/39)) ([ca418bc](https://github.com/ghost-smith-re45/w3link/commit/ca418bc718cacc88aeec926534f51fdd2e8bed3a))
+* add support for custom hostnames route intersection in worker ([#13](https://github.com/ghost-smith-re45/w3link/issues/13)) ([43385f0](https://github.com/ghost-smith-re45/w3link/commit/43385f0de60e1470ad109aa21dfad16d1a53dd56))
+* apply csp headers with goodbits ([#26](https://github.com/ghost-smith-re45/w3link/issues/26)) ([7cfd237](https://github.com/ghost-smith-re45/w3link/commit/7cfd237b95d10b5fc1ad7c640743437db3570905))
+* configure alternate gateway domains ([#71](https://github.com/ghost-smith-re45/w3link/issues/71)) ([04e128a](https://github.com/ghost-smith-re45/w3link/commit/04e128a7fa7270eb9f017b2bf1bc4f1e1f0ad6ec))
+* proxy DID document ([#78](https://github.com/ghost-smith-re45/w3link/issues/78)) ([de44608](https://github.com/ghost-smith-re45/w3link/commit/de44608b8e422e3b07e8a5ec3d1db5708f863294))
+* remove loki logging and rely on logpush ([f07fbb7](https://github.com/ghost-smith-re45/w3link/commit/f07fbb7311e677d0cc0f6a394797b0bbcfbad0b1))
+* remove loki logging and rely on logpush ([9727642](https://github.com/ghost-smith-re45/w3link/commit/97276428fb679f376d7970ef8d27f60bcbf8fc05))
+* **ucanto-server:** proxy post requests ([#65](https://github.com/ghost-smith-re45/w3link/issues/65)) ([39fa894](https://github.com/ghost-smith-re45/w3link/commit/39fa89423224e3340f533db021b4814ebe5e204c))
+* w3s gateway ([#5](https://github.com/ghost-smith-re45/w3link/issues/5)) ([3ff9ec3](https://github.com/ghost-smith-re45/w3link/commit/3ff9ec3b901d617723654c56556f5fab9603c152))
+
+
+### Bug Fixes
+
+* abort race contestants when all fulfill ([#16](https://github.com/ghost-smith-re45/w3link/issues/16)) ([59e2881](https://github.com/ghost-smith-re45/w3link/commit/59e2881ccd8b9a37fef09149e5277af6bbd793ad))
+* add dotstorage apis to csp allowlist ([#32](https://github.com/ghost-smith-re45/w3link/issues/32)) ([67c1e36](https://github.com/ghost-smith-re45/w3link/commit/67c1e36f6162b5edbaf9e0cb6008fa60573db8b1))
+* add storacha.link gateway ([ee26329](https://github.com/ghost-smith-re45/w3link/commit/ee2632900bb95bc6604a310b06dbc174c991f8a4))
+* add tableland csp exception ([#36](https://github.com/ghost-smith-re45/w3link/issues/36)) ([8404220](https://github.com/ghost-smith-re45/w3link/commit/84042206b5027663f22324988d27de4fa4b0b62d))
+* badbits url ([#21](https://github.com/ghost-smith-re45/w3link/issues/21)) ([aacd8b8](https://github.com/ghost-smith-re45/w3link/commit/aacd8b8ab970d915f3c738f670eace1bdecaadf8))
+* CSP directives ([#30](https://github.com/ghost-smith-re45/w3link/issues/30)) ([8ece81b](https://github.com/ghost-smith-re45/w3link/commit/8ece81b733b54312a1c3ee659dae6f574231208f))
+* csp headers accept w3link subdomain ([#28](https://github.com/ghost-smith-re45/w3link/issues/28)) ([dc5953b](https://github.com/ghost-smith-re45/w3link/commit/dc5953b47327dde7d2f32ef9cb18b1ddd8aba583))
+* dotstorage apis not excepted from csp ([#42](https://github.com/ghost-smith-re45/w3link/issues/42)) ([29bca90](https://github.com/ghost-smith-re45/w3link/commit/29bca900adc826949ed03ef041e00ec6c9b3dafb))
+* handle redirect from edge gateway ([#47](https://github.com/ghost-smith-re45/w3link/issues/47)) ([b4d0ca3](https://github.com/ghost-smith-re45/w3link/commit/b4d0ca317d0ced7b90fc83715479858dff1d4b7f))
+* handling preflight requests ([#66](https://github.com/ghost-smith-re45/w3link/issues/66)) ([245ed5d](https://github.com/ghost-smith-re45/w3link/commit/245ed5d16f841f88b7bbae48a31c0d2db099ee4e))
+* ipfs path resolution with 301 status ([#19](https://github.com/ghost-smith-re45/w3link/issues/19)) ([f9b9f85](https://github.com/ghost-smith-re45/w3link/commit/f9b9f857473a571d4fd9010067e3649b0bd7eeee))
+* preflight cors + caching + new route ([#68](https://github.com/ghost-smith-re45/w3link/issues/68)) ([436b985](https://github.com/ghost-smith-re45/w3link/commit/436b985f0d441e5044ba51b7857c35ed431ee007))
+* proxy headers also ([9139cfc](https://github.com/ghost-smith-re45/w3link/commit/9139cfc40814d07b21a5ea6c59146708c3d34f38))
+* redirect to product page ([#14](https://github.com/ghost-smith-re45/w3link/issues/14)) ([bb30a6e](https://github.com/ghost-smith-re45/w3link/commit/bb30a6e23cc29865012abaf250664c66de0afb1f))
+* remove `onlyIfCachedGateways` from fetch options ([f61eed5](https://github.com/ghost-smith-re45/w3link/commit/f61eed534fbb5d42af29c92081535faae846a338))
+* remove `onlyIfCachedGateways` from fetch options ([#76](https://github.com/ghost-smith-re45/w3link/issues/76)) ([4e5e365](https://github.com/ghost-smith-re45/w3link/commit/4e5e365349dc543249fdf79ee5996a4f341e5348))
+* remove tableland ([627a2f4](https://github.com/ghost-smith-re45/w3link/commit/627a2f48c09181b96276fd33ae43068810b61464))
+* remove unnecessary log data to optimize storage ([e9a6933](https://github.com/ghost-smith-re45/w3link/commit/e9a693361fa24773bb538f59e44cbc829104d971))
+* remove unnecessary log data to optimize storage ([98288a7](https://github.com/ghost-smith-re45/w3link/commit/98288a790164bba7fd8a6ac613106ca032eea201))
+* root route in staging ([#70](https://github.com/ghost-smith-re45/w3link/issues/70)) ([2ef4f31](https://github.com/ghost-smith-re45/w3link/commit/2ef4f311a352e4e85a9aa0982b2baed11f874d16))
+* update org name in Sentry configs ([c68a61c](https://github.com/ghost-smith-re45/w3link/commit/c68a61ce4f386e478c3139b2e60bec42abfd44a3))
+* worker routes with zone id ([#10](https://github.com/ghost-smith-re45/w3link/issues/10)) ([d1f6da5](https://github.com/ghost-smith-re45/w3link/commit/d1f6da53ed2539332cbf27995abca3b39043c021))
+
 ## [1.6.1](https://github.com/storacha/w3link/compare/w3link-edge-gateway-v1.6.0...w3link-edge-gateway-v1.6.1) (2025-12-04)
 
 
